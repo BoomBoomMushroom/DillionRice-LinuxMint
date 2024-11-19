@@ -1,6 +1,8 @@
 # Image to ASCII
 jp2a --color --background=dark sports.jpg > ascii_art_\!neofetch.txt 
 
+# Make executable
+chmod +x /home/dillion/Documents/GitHub/DillionRice-LinuxMint/dillionfetch.sh
 
 # sym links
 ln -s /home/dillion/Documents/GitHub/DillionRice-LinuxMint/neofetch_config.conf /home/dillion/.config/neofetch/config.conf
