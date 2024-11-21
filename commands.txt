@@ -7,4 +7,4 @@ chmod +x /home/dillion/Documents/GitHub/DillionRice-LinuxMint/dillionfetch.sh
 # sym links
 ln -s /home/dillion/Documents/GitHub/DillionRice-LinuxMint/neofetch_config.conf /home/dillion/.config/neofetch/config.conf
 ln -s /home/dillion/Documents/GitHub/DillionRice-LinuxMint/.bashrc /home/dillion/.bashrc
-
+ln -s /home/dillion/Documents/GitHub/DillionRice-LinuxMint/dillionfetch.sh /usr/local/bin/dillionfetch.sh
