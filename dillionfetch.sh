@@ -9,7 +9,7 @@ ASCII_PATH=/home/dillion/Documents/GitHub/DillionRice-LinuxMint/ascii_art_!neofe
 lines=$(tput cols)
 
 #imageOutput=$(cat $ASCII_PATH)
-imageOutput=$(jp2a --color --background=dark --height=20 $IMAGE_PATH)
+imageOutput=$(jp2a --color --background=dark --height=30 $IMAGE_PATH)
 
 # Convert the output into arrays split by newline
 IFS=$'\n' read -d '' -r -a neofetchLines <<< "$neofetchOutput"
